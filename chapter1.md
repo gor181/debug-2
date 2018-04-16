@@ -1,6 +1,8 @@
 ---
 title: Test
-description: Test
+description: >-
+  Test
+
 
 ---
 ## Sample exercise
@@ -14,26 +16,54 @@ key: 50fdf6aaea
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+---
+## exericise title
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: 8a65442449
+```
+
+tells the learner the bakground..
+
 `@instructions`
+tell the learner what to do
 
 `@hint`
+provided if asked for
 
 `@pre_exercise_code`
-```{python}
-
+```{}
+from math import pi
 ```
-
 `@sample_code`
-```{python}
-
+```{}
+# give bla bla
 ```
-
 `@solution`
-```{python}
-
+```{}
+print(pi)
 ```
-
 `@sct`
-```{python}
-
+```{}
+# sct tests are going here when needed
 ```
+
+
+
+
