@@ -8,36 +8,32 @@ description: >-
 ## Insert exercise title here
 
 ```yaml
-type: NormalExercise
+type: MultipleChoiceExercise
 
 xp: 
 
-key: 51101fe135
+key: 24357c275c
 ```
 
-assignment
+this is the question
 
 `@instructions`
-instructions
+- first
+- second
+- third
 
 `@hint`
-hint
+this is the hint
 
 `@pre_exercise_code`
 ```{}
-from math import pi
+# some code
 ```
-`@sample_code`
-```{}
-# sample code
-```
-`@solution`
-```{}
-print(pi)
-```
+
+
 `@sct`
 ```{}
-# bla
+# some sct code
 ```
 
 
